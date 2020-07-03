@@ -10,7 +10,7 @@ import torch
 from torchvision import datasets, transforms, models
 import torch.nn as nn
 from PIL import Image as im
-classes = os.listdir("e:\\PDC\\CUB_200_2011\\CUB_200_2011\\images")
+classes = os.listdir("e:\\Identifier\\CUB_200_2011\\CUB_200_2011\\images")
 len(classes)
 
 mean = [0.485, 0.456, 0.406]
